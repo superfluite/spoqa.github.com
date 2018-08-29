@@ -1,8 +1,7 @@
 ---
 layout: entry
 title: 본격 1주일 만에 (고퀄리티) 회의실 탈출 게임 만들기
-author: 김우현
-author-email: mia@spoqa.com
+author: 강영화, 김민준, 김우현
 description: 2018년 8월에 열린 파이콘 한국 2018에서 선보인 방탈출 게임을 만들었던 경험을 공유합니다.
 publish: true
 ---
@@ -14,20 +13,20 @@ publish: true
 안녕하세요. 스포카 크리에이터팀에서 [파이콘 한국 2018][]에 부스에 참가했습니다. 이번 부스에서는 여러 이벤트를 했었는데요! 그 중 저희는 파이콘 준비 중에 사전 이벤트로 **파이콘 발표하러 가는길: 스포카 방탈출**을 선보였습니다.
 
 <p align="center">
-  <img src="/images/2018-08-23/escape_ga_data.png" width="2000px" />
+  <img src="/images/2018-08-30/escape_ga_data.png" width="2000px" />
 </p>
 
 총 1,441분(!!)께서 탈출에 도전하셨고, 434분께서 탈출에 성공하셨습니다. 그리고 275분께서 파이콘 부스 설명 링크를 클릭해 주셨습니다. 탈출에 도전한 숫자는 파이콘 2018에 참여한 모든 사람 수에 맞먹는 수치입니다. 생각보다 많은 분이 관심 가져주셔서 놀랍고 뿌듯했습니다!
 
 <figure>
-  <img src="/images/2018-08-23/gameplay.gif" width="2000px" />
+  <img src="/images/2018-08-30/gameplay.gif" width="2000px" />
   <figcaption>게임 플레이 장면</figcaption>
 </figure>
 
 이 게임은 360도 카메라로 촬영한 실제 스포카 회의실을 배경으로 하여, 각개 각소에 있는 단서를 모아서 회의실에서 탈출하는 것이 목표인 게임입니다. 오늘은 이 이벤트를 어떻게 만들게 되었는지 간단히 소개하고자 합니다.
 
 <figure>
-  <img src="/images/2018-08-23/360camera.jpg" width="350px" />
+  <img src="/images/2018-08-30/360camera.jpg" width="350px" />
   <figcaption>찍은 사람이 안 찍힌 이유</figcaption>
 </figure>
 
@@ -55,7 +54,7 @@ publish: true
 실제로 이 프로젝트도 [Vue.js][], [three.js][]를 활용한 [panolens.js][] 등의 다양한 오픈소스를 활용하여 만들었습니다.
 
 <figure>
-  <img src="/images/2018-08-23/ghost.png" width="2000px" />
+  <img src="/images/2018-08-30/ghost.png" width="2000px" />
   <figcaption>유령도 찾으셨나요?</figcaption>
 </figure>
 
@@ -71,7 +70,7 @@ publish: true
 [파이콘 발표하러 가는길 : 스포카 방탈출]: https://pycon-2018-escape.spoqa.com/
 [스포카 한 산스]: https://spoqa.github.io/spoqa-han-sans/
 [미리 보기]: https://spoqa.github.io/spoqa-han-sans/ko-KR/#preview
-[스포카에서는 회고를 어떻게 할까?]: https://2018-08-23-retrospective.html
+[스포카에서는 회고를 어떻게 할까?]: https://spoqa.github.io/2018/08/29/retrospect.html
 [Vue.js]: http://vuejs.org/
 [three.js]: https://threejs.org/
 [panolens.js]: https://github.com/pchen66/panolens.js
